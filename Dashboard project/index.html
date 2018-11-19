@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<header>
+		<div class="container-fluid">
+			<div class="col-md-1">
+				<h4>WayDesign</h4>
+			</div> 	
+			<div class="col-md-7 pull-left">
+             <div id="custom-search-input">
+                <div class="input-group col-md-4">
+                    <input type="text" class="form-control" placeholder="Rechercher" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-info" type="button">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 pull-right text-right">
+        	<a href=""><i class="fas fa-sign-out-alt"></i> Se Déconnecter</a>
+        </div>
+		</div>	
+	</header>
+
+<section id="menu">
+<div class="container">
+	<div class="row">
+ 		<div class="col-md-12">
+ 				  <ul class="nav nav-tabs">
+ 				    <li><a href="#"><i class="far fa-eye"></i> Gestion Projets</a></li>
+				    <li><a href="#"><i class="fab fa-gg"></i> Gestion Charge</a></li>
+				    <li><a href="#"><i class="fas fa-map-marker-alt"></i> Actualités</a></li>
+				    <li><a href="#"><i class="far fa-clock"></i> Dashboard</a></li>
+				    <li class="active"><a href="#"><i class="fas fa-sliders-h"></i> Projets</a></li>
+				    <li><a href="#"><i class="fas fa-wrench"></i> Outils</a></li>
+				    <li><a href="#"><i class="far fa-clock"></i> Pause café</a></li>
+				    <li><a href="#"><i class="far fa-thumbs-up"></i> Forum</a></li>
+				    <li><a href="#"><i class="fas fa-map-pin"></i> Blog</a></li>
+		</ul> 
+		</div>
+	</div>
+</div>
+</section>
+<div class="empty_space"></div>
+<section id="slide">
+	<div class="container">
+		<div class="row"> 
+ 
+			<div id="carousel" class="carousel slide" data-ride="carousel" data-type="multi" data-interval="5000">
+				<div class="carousel-inner">
+					<div class="item active">
+						<div class="carousel-col">
+							<div class="box">
+								<div class="combine">
+									<h5>F42810</h5>
+									<p>RAV CLAMART 2019</p>
+									<div class="circle cir1"></div>
+								</div>
+						     </div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="carousel-col">
+							<div class="box">
+								<div class="combine">
+									<h5>F45000</h5>
+									<p>RVB La Rochette 2021</p>
+									<div class="circle cir2"></div>
+								</div>
+						     </div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="carousel-col">
+							<div class="box">
+								<div class="combine">
+									<h5>F45539</h5>
+									<p>RAV Gare de Lyon 2019</p>
+									<div class="circle cir3"></div>
+								</div>
+						     </div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="carousel-col">
+							<div class="box">
+								<div class="combine">
+									<h5>F45534</h5>
+									<p>RAV Melun 2019</p>
+									<div class="circle cir4"></div>
+								</div>
+						     </div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Controls -->
+				<div class="left carousel-control">
+					<a href="#carousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+				</div>
+				<div class="right carousel-control">
+					<a href="#carousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+
+ 			 
+			</div> 
+		</div>	
+ </section>
+<div class="empty_space_small"></div>
+<section id="prograss">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				 <div class="process">
+					 <h5>Initialisation</h5>
+					 <span class="process_circle c1"><b class="count">13</b><i class="fas fa-folder-open"></i></span><br><br>
+					  <span>18/6/2018</span>
+					   
+				 </div> 
+				 <div class="process">
+					 <h5>Données dentrée</h5>
+					 <span class="process_circle c2"><i class="fas fa-list-ul"></i></span> <br><br> 
+					 <span>18/06/2018</span> 
+				 </div> 
+				 <div class="process">
+					 <h5>Documents techniques</h5>
+					 <span class="process_circle c3"><i class="fas fa-fire"></i></span> <br><br> 
+					 <span>18/06/2018</span>  	
+				 </div>
+				 <div class="process">
+					 <h5>Estimations</h5>
+					 <span class="process_circle c4"><i class="fas fa-euro-sign"></i></span>  <br><br> 
+					 <span>18/06/2018</span> 	
+				 </div>
+				 <div class="process">
+					 <h5>Notices</h5>
+					 <span class="process_circle c5"><i class="fas fa-laptop"></i></span> <br><br> 
+					 <span>18/06/2018</span>  	
+				 </div>
+				 <div class="process">
+					 <h5>Qualité</h5>
+					 <span class="process_circle c6"><i class="fas fa-book"></i></i></span>  <br><br> 
+					 <span>18/06/2018</span> 	
+				 </div>
+				 <div class="process">
+					 <h5>Courrier</h5>
+					 <span class="process_circle c7"><i class="fab fa-autoprefixer"></i></span>  <br><br> 
+					 <span>18/06/2018</span> 	
+				 </div>
+				 <div class="process">
+					 <h5>Signature Envoi</h5>
+					 <span class="process_circle c8"><i class="fas fa-envelope"></i></span> <br><br> 
+					 <span>18/06/2018</span>  	
+				 </div>
+				 <div class="process">
+					 <h5>Archivage</h5>
+					 <span class="process_circle c9"><i class="fas fa-check"></i></span>  <br><br> 
+					 <span>18/06/2018</span> 	
+				 </div> 
+				 <hr>
+				 
+			</div>
+		</div>	
+	</div>
+</section>
+<div class="empty_space_small"></div>
+<section id="buttonwrap">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h5>Outils et liens utiles</h5>
+				<a class="btn btn-success custome_btn" href="#">ARMEN</a>
+				<a class="btn btn-success custome_btn" href="#">Imajnet</a>
+				<a class="btn btn-success custome_btn" href="#">Seism</a>
+				<a class="btn btn-success custome_btn" href="#">Moust-H</a>
+				<a class="btn btn-success custome_btn" href="#">Fichier des dérogations</a>
+			</div>
+		</div>	
+	</div>
+</section>
+<div class="empty_space_small"></div>
+<section id="listwrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<p>Liste des données d'entrée: ....</p>
+			</div>
+		</div>	
+	</div>
+</section>
+<div class="empty_space_small"></div>
+<section id="boxwrapp">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h5>Données d'entrée nécessaires au projet:</h5>
+				<div class="progress">
+				  <div class="progress-bar" role="progressbar" aria-valuenow="70"
+				  aria-valuemin="0" aria-valuemax="100" style="width:50%">
+				    <span class="sr-only">70% Complete</span>
+				  </div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 pr0">
+				<div class="box">
+					<h4>Zones de remontées glaiseuses</h4>
+					<table class="table-striped custom-table">
+						 <tr>
+							 <td><label for="demand">Demande au CEP:</label></td>
+							 <td> <input type="text" class="form-control" id="demand" value="6/11/2018"></td>
+						 </tr>
+						 <tr>
+							<td><label for="demand">Proposition du CEP:</label></td>
+							<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+						</tr>
+						<tr>
+							<td><label for="demand">Réception</label></td>
+							<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+						</tr>
+						<tr>
+							<td><label for="demand">Validation</label></td>
+							<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+						</tr>
+					</table>
+					<span class="pull-right">(la validation doit se faire deux semaines après réception)</span>
+					
+					<div class="box_footer">
+							<hr>
+						<a class="icon_btn" href="#"><i class="fas fa-plus"></i></a>
+						<a class="icon_btn" href="#"><i class="fas fa-file"></i></a>
+						<a class="icon_btn" href="#"><i class="fas fa-trash-alt"></i></a>
+						<button class="btn btn-warning btn-box">DEMANDÉ</button>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 pr0">
+					<div class="box">
+						<h4>PDR initialisé par le tracé</h4>
+						<table class="table-striped custom-table">
+							 <tr>
+								 <td><label for="demand">Demande au CEP</label></td>
+								 <td> <input type="text" class="form-control" id="demand" value="6/11/2018"></td>
+							 </tr>
+							 <tr>
+								<td><label for="demand">Proposition du CEP</label></td>
+								<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+							</tr>
+							<tr>
+								<td><label for="demand">Réception</label></td>
+								<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+							</tr>
+							<tr>
+								<td><label for="demand">Validation</label></td>
+								<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+							</tr>
+						</table>
+						<span class="pull-right">(La validation doit se faire deux semaines après réception)</span>
+						
+						<div class="box_footer">
+								<hr>
+							<a class="icon_btn" href="#"><i class="fas fa-plus"></i></a>
+							<a class="icon_btn" href="#"><i class="fas fa-file"></i></a>
+							<a class="icon_btn" href="#"><i class="fas fa-trash-alt"></i></a>
+							<button class="btn btn-warning btn-box blue-btn">REÇU</button>
+						</div>
+					</div>
+			 </div>
+			 <div class="col-md-3 pr0">
+					<div class="box">
+						<h4>Sondages</h4>
+						<table class="table-striped custom-table">
+							 <tr>
+								 <td><label for="demand">Demande au CEP</label></td>
+								 <td> <input type="text" class="form-control" id="demand" value="6/11/2018"></td>
+							 </tr>
+							 <tr>
+								<td><label for="demand">Proposition du CEP</label></td>
+								<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+							</tr>
+							<tr>
+								<td><label for="demand">Réception</label></td>
+								<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+							</tr>
+							<tr>
+								<td><label for="demand">Validation</label></td>
+								<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+							</tr>
+						</table>
+						<span class="pull-right">(La validation doit se faire deux semaines après réception)</span>
+						
+						<div class="box_footer">
+								<hr>
+							<a class="icon_btn" href="#"><i class="fas fa-plus"></i></a>
+							<a class="icon_btn" href="#"><i class="fas fa-file"></i></a>
+							<a class="icon_btn" href="#"><i class="fas fa-trash-alt"></i></a>
+							<button class="btn btn-warning btn-box blue-btn">REÇU</button>
+						</div>
+					</div>
+			 </div>
+			 <div class="col-md-3 pr0">
+					<div class="box">
+						<h4>Liste des OA</h4>
+						<table class="table-striped custom-table">
+							 <tr>
+								 <td><label for="demand">Demande au CEP</label></td>
+								 <td> <input type="text" class="form-control" id="demand" value="6/11/2018"></td>
+							 </tr>
+							 <tr>
+								<td><label for="demand">Proposition du CEP</label></td>
+								<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+							</tr>
+							<tr>
+								<td><label for="demand">Réception</label></td>
+								<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+							</tr>
+							<tr>
+								<td><label for="demand">Validation</label></td>
+								<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+							</tr>
+						</table>
+						<span class="pull-right">(la validation doit se faire deux semaines après réception)</span>
+						
+						<div class="box_footer">
+								<hr>
+							<a class="icon_btn" href="#"><i class="fas fa-plus"></i></a>
+							<a class="icon_btn" href="#"><i class="fas fa-file"></i></a>
+							<a class="icon_btn" href="#"><i class="fas fa-trash-alt"></i></a>
+							<button class="btn btn-warning btn-box red-btn">REÇU</button>
+						</div>
+					</div>
+			 </div>
+			  
+		</div>	
+		<div class="empty_space_small"></div>
+		<div class="row">
+				<div class="col-md-3 pr0">
+						<div class="box">
+							<h4>Classement des OA</h4>
+							<table class="table-striped custom-table">
+								 <tr>
+									 <td><label for="demand">Demande au CEP</label></td>
+									 <td> <input type="text" class="form-control" id="demand" value="6/11/2018"></td>
+								 </tr>
+								 <tr>
+									<td><label for="demand">Proposition du CEP</label></td>
+									<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+								</tr>
+								<tr>
+									<td><label for="demand">Réception</label></td>
+									<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+								</tr>
+								<tr>
+									<td><label for="demand">Validation</label></td>
+									<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+								</tr>
+							</table>
+							<span class="pull-right">(la validation doit se faire deux semaines après réception)</span>
+							
+							<div class="box_footer">
+									<hr>
+								<a class="icon_btn" href="#"><i class="fas fa-plus"></i></a>
+								<a class="icon_btn" href="#"><i class="fas fa-file"></i></a>
+								<a class="icon_btn" href="#"><i class="fas fa-trash-alt"></i></a>
+								<button class="btn btn-warning btn-box">DEMANDÉ</button>
+							</div>
+						</div>
+				 </div>
+				 <div class="col-md-3 pr0">
+						<div class="box">
+							<h4>Classement des OA (IN22915)</h4>
+							<table class="table-striped custom-table">
+								 <tr>
+									 <td><label for="demand">Demande au CEP</label></td>
+									 <td> <input type="text" class="form-control" id="demand" value="6/11/2018"></td>
+								 </tr>
+								 <tr>
+									<td><label for="demand">Proposition du CEP</label></td>
+									<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+								</tr>
+								<tr>
+									<td><label for="demand">Réception</label></td>
+									<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+								</tr>
+								<tr>
+									<td><label for="demand">Validation</label></td>
+									<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+								</tr>
+							</table>
+							<span class="pull-right">(la validation doit se faire deux semaines après réception)</span>
+							
+							<div class="box_footer">
+									<hr>
+								<a class="icon_btn" href="#"><i class="fas fa-plus"></i></a>
+								<a class="icon_btn" href="#"><i class="fas fa-file"></i></a>
+								<a class="icon_btn" href="#"><i class="fas fa-trash-alt"></i></a>
+								<button class="btn btn-warning btn-box blue-btn">DEMANDÉ</button>
+							</div>
+						</div>
+				 </div>
+				 <div class="col-md-3 pr0">
+						<div class="box">
+							<h4>Schéma de signalisation</h4>
+							<table class="table-striped custom-table">
+								 <tr>
+									 <td><label for="demand">Demande au CEP</label></td>
+									 <td> <input type="text" class="form-control" id="demand" value="6/11/2018"></td>
+								 </tr>
+								 <tr>
+									<td><label for="demand">Proposition du CEP</label></td>
+									<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+								</tr>
+								<tr>
+									<td><label for="demand">Réception</label></td>
+									<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+								</tr>
+								<tr>
+									<td><label for="demand">Validation</label></td>
+									<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+								</tr>
+							</table>
+							<span class="pull-right">(la validation doit se faire deux semaines après réception)</span>
+							
+							<div class="box_footer">
+									<hr>
+								<a class="icon_btn" href="#"><i class="fas fa-plus"></i></a>
+								<a class="icon_btn" href="#"><i class="fas fa-file"></i></a>
+								<a class="icon_btn" href="#"><i class="fas fa-trash-alt"></i></a>
+								<button class="btn btn-warning btn-box blue-btn">DEMANDÉ</button>
+							</div>
+						</div>
+				 </div>
+				 <div class="col-md-3 pr0">
+						<div class="box">
+							<h4>Ancien carnet de courbe</h4>
+							<table class="table-striped custom-table">
+								 <tr>
+									 <td><label for="demand">Demande au CEP</label></td>
+									 <td> <input type="text" class="form-control" id="demand" value="6/11/2018"></td>
+								 </tr>
+								 <tr>
+									<td><label for="demand">Proposition du CEP</label></td>
+									<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+								</tr>
+								<tr>
+									<td><label for="demand">Réception</label></td>
+									<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+								</tr>
+								<tr>
+									<td><label for="demand">Validation</label></td>
+									<td> <input type="text" class="form-control" id="demand" placeholder=""></td>
+								</tr>
+							</table>
+							<span class="pull-right">(la validation doit se faire deux semaines après réception)</span>
+							
+							<div class="box_footer">
+									<hr>
+								<a class="icon_btn" href="#"><i class="fas fa-plus"></i></a>
+								<a class="icon_btn" href="#"><i class="fas fa-file"></i></a>
+								<a class="icon_btn" href="#"><i class="fas fa-trash-alt"></i></a>
+								<button class="btn btn-warning btn-box red-btn">DEMANDÉ</button>
+							</div>
+						</div>
+				 </div>
+				 
+		</div>	
+	</div>
+</section>
+
+
+</body>
+</html> 
+<script  src="js/jquery.js"> </script>
+<script  src="js/bootstrap.min.js"> </script>
+<script  src="js/custom.js"> </script>
